@@ -75,7 +75,6 @@ for line in keyfile:
         if findseq(line_split[0].strip(),tempfile)==0:
             print 'not found',line_split[0]
         else:
-            print 'came1',tcount
             if tcount==0:
                 tcount=1
             elif tcount==1:
